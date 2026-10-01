@@ -1,0 +1,124 @@
+{
+  "output": "三下乡田野纪行手册.html",
+  "book": {
+    "title": "三下乡 · 田野纪行",
+    "topbar": "SUMMER FIELD NOTES · 三下乡田野纪行",
+    "download_prefix": "三下乡田野纪行",
+    "cover_eyebrow": "2024 · SUMMER · FIELD NOTES",
+    "title_cn": "田野纪行",
+    "title_en": "FIELD NOTES",
+    "cover_image": "@IMG:corn@",
+    "cover_sub": "四张照片 · 一段夏天",
+    "cover_sub_en": "A little book of summer moments",
+    "cover_foot": "三下乡实践队 · 制　|　2024.07",
+    "back_eyebrow": "THE END · 完",
+    "back_title": "Thanks for Reading",
+    "back_cn": "谢谢翻阅",
+    "back_line": "这个夏天，被装进票根与照片里。",
+    "back_foot": "三下乡实践队 · 2024 SUMMER",
+    "pm_t1": "SAN XIA XIANG",
+    "pm_date": "07 · 2024",
+    "pm_t2": "SUMMER FIELD NOTES"
+  },
+  "images": {
+    "corn": "assets/illust-corn.jpg",
+    "wheel": "assets/illust-wheel.jpg",
+    "sunset": "assets/illust-sunset.jpg",
+    "roof": "assets/illust-roof.jpg",
+    "p_corn": "assets/photo-corn.jpg",
+    "p_wheel": "assets/photo-wheel.jpg",
+    "p_sunset": "assets/photo-sunset.jpg",
+    "p_roof": "assets/photo-roof.jpg"
+  },
+  "faces": [
+    {
+      "type": "foreword",
+      "face_name": "题词",
+      "quote_cn": "去田野里，收集一整个夏天。",
+      "quote_en": "Collect a whole summer in the fields.",
+      "note": "这本小册子收录了四张照片与四种旅途纪念。",
+      "photos": [
+        {"file": "@IMG:p_corn@", "alt": "玉米地实拍", "num": "01", "cn": "田野", "en": "Green Gold"},
+        {"file": "@IMG:p_wheel@", "alt": "车窗摩天轮实拍", "num": "02", "cn": "旅途", "en": "Wheel of Sky"},
+        {"file": "@IMG:p_sunset@", "alt": "黄昏街道实拍", "num": "03", "cn": "黄昏", "en": "Golden Hour"},
+        {"file": "@IMG:p_roof@", "alt": "蓝天屋面实拍", "num": "04", "cn": "晴空", "en": "Blue Roof"}
+      ]
+    },
+    {
+      "type": "ticket",
+      "face_name": "玉米票卡",
+      "stop": "STOP 01 · FIELD 田野",
+      "image": "@IMG:corn@",
+      "alt": "玉米田水彩插画",
+      "no": "001",
+      "title": "Green Gold",
+      "sub": "玉米地里的夏天",
+      "dots": ["#7C9A5A", "#B7C68B", "#D9C07A", "#4E6B3A"],
+      "note": "苞叶里的夏天，是绿色的。",
+      "phrase": "Grow with<br>the sun.",
+      "date": "2024 · 07 · 31",
+      "page_no": "03",
+      "acc": "#7C9A5A"
+    },
+    {
+      "type": "boarding_pass",
+      "face_name": "摩天轮登机牌",
+      "stop": "STOP 02 · ROAD 旅途",
+      "image": "@IMG:wheel@",
+      "alt": "摩天轮水彩插画",
+      "acc": "#E8927C",
+      "airline": "Field Air",
+      "bp_kind": "BOARDING PASS · 登机牌",
+      "from": "CITY",
+      "to": "FIELD",
+      "flight": "SXX · 2024",
+      "seat": "07 A",
+      "gate": "C-01",
+      "date": "26 JUL",
+      "note": "从城市出发，去田野里过夏天。",
+      "phrase": "Rolling to somewhere.",
+      "page_no": "04"
+    },
+    {
+      "type": "postcard",
+      "face_name": "黄昏明信片",
+      "stop": "STOP 03 · DUSK 黄昏",
+      "image": "@IMG:sunset@",
+      "alt": "黄昏街道水彩插画",
+      "acc": "#E0BC85",
+      "msg_cn": "此刻晚霞正好，风也温柔。",
+      "msg_en": "Slow down, sunset is here.",
+      "addr": "TO：未来的自己<br>三下乡 · 2024 夏",
+      "stamp": "CN<br>2024",
+      "postmark": "SANXIAXIANG<br>07 · 26",
+      "page_no": "05"
+    },
+    {
+      "type": "polaroid",
+      "face_name": "蓝天拍立得",
+      "stop": "STOP 04 · SKY 晴空",
+      "image": "@IMG:roof@",
+      "alt": "蓝天屋面水彩插画",
+      "acc": "#7E93A6",
+      "title": "Blue Roof",
+      "sub": "RAISE HIGH THE BLUE · 晴空纪念",
+      "cap": "Blue Roof",
+      "cap_sub": "2024 · 07 · 29 晴",
+      "note": "蓝屋顶与白云，是夏天的晴空。",
+      "page_no": "06"
+    },
+    {
+      "type": "stamps",
+      "face_name": "印章页",
+      "title_cn": "沿途盖章",
+      "title_en": "STAMP PAGE · COLLECT THE MOMENTS",
+      "note": "One stamp, one memory.",
+      "stamps": [
+        {"color": "#7C9A5A", "icon": "corn", "en": "FIELD", "cn": "田野 · 玉米地"},
+        {"color": "#E8927C", "icon": "wheel", "en": "ROAD", "cn": "旅途 · 摩天轮"},
+        {"color": "#E0BC85", "icon": "sun", "en": "DUSK", "cn": "黄昏 · 晚霞"},
+        {"color": "#7E93A6", "icon": "roof", "en": "SKY", "cn": "晴空 · 蓝屋顶"}
+      ]
+    }
+  ]
+}
